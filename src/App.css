@@ -1,0 +1,88 @@
+.App {
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+  width: 600px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+/*------ TrainingForm.js ------*/
+.TrainingForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.Data-Label, .Date-Input, .Dist-Label, .Dist-Input {
+  display: block;
+}
+
+.Date-Input, .Dist-Input {
+  width: 150px;
+  height: 40px;
+  box-sizing: border-box;
+  outline: none;
+  margin-top: 5px;
+  padding-left: 10px;
+}
+
+.Date-Input, .Dist-Input, .Ok-Button {
+  border-radius: 7px;
+}
+
+.Ok-Button {
+  width: 100px;
+  height: 40px;
+  background-color: white;
+  outline: none;
+}
+
+/*------ TrainingList.js ------*/
+.List-Header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.List-Table {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+/*------ Record.js ------*/
+.Record {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Edit, .Delete {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 2px;
+}
